@@ -1,0 +1,4 @@
+(start-repl)
+(js/alert "Hello, Clojure")
+:cljs/quit
+(require '[figwheel-sidecar.repl-api :as fw])(fw/start-figwheel!)(fw/cljs-repl)
